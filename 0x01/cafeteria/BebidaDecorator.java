@@ -10,10 +10,7 @@ public class BebidaDecorator extends Bebida{
 
     @Override
     public List<String> obterIngredientes() {
-        List<String> ingredientes = new ArrayList<String>();
-        ingredientes.addAll(bebidaDecorada.obterIngredientes());
-        ingredientes.add("leite");
-        return ingredientes;
+        return bebidaDecorada.obterIngredientes();
     }
 
     @Override
