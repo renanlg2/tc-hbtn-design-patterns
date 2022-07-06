@@ -8,7 +8,7 @@ public class CalculadorSalarioService {
     private CalculadorSalarioService() {
     }
 
-    public static CalculadorSalarioService getCalculadoraService(){
+    public static CalculadorSalarioService getCalculadorSalarioService(){
         if (instancia == null)
             instancia = new CalculadorSalarioService();
 
