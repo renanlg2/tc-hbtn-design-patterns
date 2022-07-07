@@ -21,14 +21,14 @@ public class Pedido {
 
         this.itensForaCaixa.stream()
                 .forEach(itemPedido -> {
-                    result[0] += "\t- " + itemPedido.getTipo() + " " + itemPedido.getNome() + "\n";
+                    result[0] += "\t\t- " + itemPedido.getTipo() + " " + itemPedido.getNome() + "\n";
                 });
 
         result[0] += "\tDentro da caixa:\n";
 
         this.itensDentroCaixa.stream()
                 .forEach(itemPedido -> {
-                    result[0] += "\t- " + itemPedido.getTipo() + " " + itemPedido.getNome() + "\n";
+                    result[0] += "\t\t- " + itemPedido.getTipo() + " " + itemPedido.getNome() + "\n";
                 });
 
         return result[0];
