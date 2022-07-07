@@ -17,14 +17,14 @@ public class Pedido {
     public String toString(){
         final String[] result = {""};
 
-        result[0] += "\tFora da caixa:\n";
+        result[0] += "\tFora da Caixa:\n";
 
         this.itensForaCaixa.stream()
                 .forEach(itemPedido -> {
                     result[0] += "\t\t- " + itemPedido.getTipo() + " " + itemPedido.getNome() + "\n";
                 });
 
-        result[0] += "\tDentro da caixa:\n";
+        result[0] += "\tDentro da Caixa:\n";
 
         this.itensDentroCaixa.stream()
                 .forEach(itemPedido -> {
