@@ -1,5 +1,5 @@
 O que é Arquitetura Hexagonal e por quem ela foi criada ?
-Arquitetura Hexagonal, também conhecida como Portas e Adaptadores, é um Design Pattern criado por Alistair Cockburn.
+Arquitetura Hexagonal (Hexagonal Architecture), também conhecida como Portas e Adaptadores, é um Design Pattern criado por Alistair Cockburn, que tem como princípio o Clean Architecture, que foi criado por Robert Cecil Martin (famoso Uncle Bob).
 
 Quais são os benefícios e recursos que Arquitetura Hexagonal fornece?
 Separação das camadas de regra de negócio da camada de infraestrutura, assim, facilita a manutenção ou troca desses recursos, sem grande impacto na camada de Core Business (Regra de Negócio) do sistema.
