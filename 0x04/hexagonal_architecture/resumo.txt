@@ -1,13 +1,9 @@
-O que é Arquitetura Hexagonal e por quem ela foi criada ?
-Arquitetura Hexagonal (Hexagonal Architecture), também conhecida como Portas e Adaptadores, é um Design Pattern criado por Alistair Cockburn, que tem como princípio o Clean Architecture, que foi criado por Robert Cecil Martin (famoso Uncle Bob).
+Arquitetura Hexagonal (Hexagonal Architecture), também conhecida como Portas e Adaptadores, é um Design Pattern criado por Alistair Cockburn, na década de 90.
 
-Quais são os benefícios e recursos que Arquitetura Hexagonal fornece?
 Separação das camadas de regra de negócio da camada de infraestrutura, assim, facilita a manutenção ou troca desses recursos, sem grande impacto na camada de Core Business (Regra de Negócio) do sistema.
 Entre as vantagens, se encontram a independência entre serviços, onde os adaptadores podem ser criados e substituindos sem interferir nas regras de negócio, e também a facilidade fornecida para os testes da aplicação.
 
-Quais as diferenças entre Arquitetura Hexagonal e Clean Architecture?
 Clean Architecture é uma arquitetura de software que tem por objetivo padronizar e organizar o código desenvolvido, favorecer a sua reusabilidade, assim como independência de tecnologia.
-Arquitetura Hexagonal usa os princípios da Clean Architecture, colocando o domínio no centro da arquitetura e separando das camadas de infraestrutura.
+Arquitetura Hexagonal usa os princípios da Clean Architecture, colocando o domínio no centro da arquitetura e separando das camadas de infraestrutura, e a comunicação entre essas camadas são feitas através de Adaptadores (Adapters).
 
-Na sua opinião, a Arquitetura Hexagonal pode ser utilizada em qualquer tipo de projeto ? Quais informações devem ser consideradas antes de desenvolver sistemas usando esse padrão de projeto ?
-Acredito que até pode ser usada em qualquer tipo de projeto, mas não deve. O que deve ser analisado é o nível de complexidade do software e a frequência de necessidade de manutenção.
+Apesar de ser possível, deve ser analisado o contexto do projeto, como é o nível de complexidade do mesmo e a frequência de necessidade de manutenção, uma vez que para podermos implementar a Arquitetura Hexagonal demanda tempo da equipe de desenvolvimento pela sua complexidade.
