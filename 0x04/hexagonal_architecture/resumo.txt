@@ -1,7 +1,7 @@
-Arquitetura Hexagonal (Hexagonal Architecture), também conhecida como Portas e Adaptadores, é um Design Pattern criado por Alistair Cockburn, na década de 90.
+Arquitetura Hexagonal (Hexagonal Architecture), também conhecida como Portas e Adaptadores (Ports and Adapters), é um Design Pattern criado por Alistair Cockburn, na década de 90.
 
-Separação das camadas de regra de negócio da camada de infraestrutura, assim, facilita a manutenção ou troca desses recursos, sem grande impacto na camada de Core Business (Regra de Negócio) do sistema.
-Entre as vantagens, se encontram a independência entre serviços, onde os adaptadores podem ser criados e substituindos sem interferir nas regras de negócio, e também a facilidade fornecida para os testes da aplicação.
+Separação das camadas de regra de negócio da camada de infraestrutura, assim, facilitando a manutenção ou troca desses recursos, sem grande impacto na camada de Core Business (Regra de Negócio) do sistema.
+Entre as vantagens, se encontram a independência entre serviços, onde os adaptadores podem ser criados e substituidos sem interferir nas regras de negócio, e também a facilidade fornecida para os testes da aplicação.
 
 Clean Architecture é uma arquitetura de software que tem por objetivo padronizar e organizar o código desenvolvido, favorecer a sua reusabilidade, assim como independência de tecnologia.
 Arquitetura Hexagonal usa os princípios da Clean Architecture, colocando o domínio no centro da arquitetura e separando das camadas de infraestrutura, e a comunicação entre essas camadas são feitas através de Adaptadores (Adapters).
